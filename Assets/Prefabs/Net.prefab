@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 4661423959570394679}
   - component: {fileID: 3019110781740442152}
   - component: {fileID: 2159529990529934881}
-  m_Layer: 0
+  - component: {fileID: 6100506890455379294}
+  m_Layer: 3
   m_Name: Net
-  m_TagString: Net
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,4 +123,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd5189f125e68654ba63003a0976a9d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
+  spawnTime: 5
+  fishPrefab: {fileID: 3304834987996480573, guid: c1ae29c95efdc3b4ab38d8ab305fffd4, type: 3}
+  bombPrefab: {fileID: 367783483953323648, guid: 9174f2ef91b05734bae6fdb227aa7fc0, type: 3}
+  gameOverPanel: {fileID: 0}
+  scoreText: {fileID: 0}
+  gameOverScoreText: {fileID: 0}
+--- !u!50 &6100506890455379294
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4946366572959967585}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 6
